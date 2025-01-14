@@ -7,7 +7,14 @@ export default class App extends Component {  // Fix typo: Conponent -> Componen
     }
 
     render() {
-        return <h1>Test</h1>;
+        return  <div>
+                    <form method="POST">
+                        <h1>Test</h1>
+                        <label htmlFor="username">Naudotojo vardas</label>
+                        <input type="text" id="username"></input>
+                        <input type="submit" value="submit"></input>
+                    </form>
+                </div>;
     }
 }
 
